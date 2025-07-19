@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous"
+     referrerpolicy="no-referrer" />
+     <title>Spotify - Web Player: Music for everyone</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+     <link rel="icon" href="./assets/logo.png">
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div style="opacity: 1;" class="nav-option">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option">
+                        <img src="./assets/library_icon.png" alt="">
+                        <a href="">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">it's easy, we'll help you</p>
+                        <button class="badge">Create Playlist</button>
+                    </div>
+                    <div class="box" style="height: 9.5rem;">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">we'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="./assets/backward_icon.png" alt="">
+                    <img src="./assets/forward_icon.png" class="hide">
+                </div>
+                <div class="sticky-nav-option">
+                    <button class="badge nav-item hide">Explore Premium</button>
+                    <button class="badge nav-item dark-badge"><i class="fa-regular fa-circle-down" style="margin-right: 5px;"></i>Install App</button>
+                    <i class="fa-regular fa-user nav-item"></i>
+                </div>
+            </div>
+            
+                <h2>Recently Played</h2>
+                <div class="albums-container">
+                    <div class="album">
+                        <img src="./assets/album1img.jfif" class="album-img">
+                        <p class="album-title">Mat Aazma Re - Murder 3</p>
+                        <p class="album-info">KK | Pritam</p>
+                    </div>
+                    <div class="album">
+                        <img src="./assets/album10img.jfif" class="album-img">
+                        <p class="album-title">Jab Se Mere Dil Ko Uff - Teri Meri Kahani</p>
+                        <p class="album-info">Sunidhi Chauhan, Sonu Nigam | Sajid Wajid</p>
+                    </div>
+                    <div class="album">
+                        <img src="./assets/album12img.jfif" class="album-img">
+                        <p class="album-title">Main Rang Sharbaton Ka -  PPNH</p>
+                        <p class="album-info">Atif Aslam | Pritam</p>
+                    </div>
+                </div>
+
+                <h2>Trending now near you</h2>
+                <div class="albums-container">
+                    <div class="album">
+                        <img src="./assets/album2img.jfif" class="album-img">
+                        <p class="album-title">Labon Ko - Bhool Bhulaiyaa</p>
+                        <p class="album-info">KK | Pritam</p>
+                    </div>
+
+                    <div class="album">
+                        <img src="./assets/album3img.jfif" class="album-img">
+                        <p class="album-title">Hua-Main - Animal</p>
+                        <p class="album-info">Raghav Chaitanya | Pritam</p>
+                    </div>
+
+                    <div class="album">
+                        <img src="./assets/card4img.jpg" class="album-img">
+                        <p class="album-title">Barbaadiyan - Shiddat</p>
+                        <p class="album-info">Madhubanti Bagchi, Nikhita Gandhi, Sachin–Jigar, Sachet Tandon | Priya Saraiya</p>
+                    </div>
+
+                    <div class="album">
+                        <img src="./assets/album5img.jfif" class="album-img">
+                        <p class="album-title">Srivalli - Pushpa: The Rise</p>
+                        <p class="album-info">Javed Ali | Devi Sri Prasad</p>
+                    </div>
+
+                    <div class="album">
+                        <img src="./assets/album6img.jfif" class="album-img">
+                        <p class="album-title">Hale Dil - Murder 2</p>
+                        <p class="album-info">Harshit Saxena | Harshit Saxena</p>
+                    </div>
+
+                    <div class="album">
+                        <img src="./assets/album13img.jfif" class="album-img">
+                        <p class="album-title">Aadat (Juda Hoke Bhi) - Kalyug</p>
+                        <p class="album-info">Atif Aslam | Goher Mumtaz</p>
+                    </div>
+
+                    <div class="album">
+                        <img src="./assets/album14img.jfif" class="album-img">
+                        <p class="album-title">Teri Jhuki Nazar - Murder 3</p>
+                        <p class="album-info">Shafqat Amanat Ali | Pritam</p>
+                    </div>
+                </div>
+
+                <h2>Albums</h2>
+                <div class="albums-container">
+                    <div class="album">
+                        <img src="./assets/album8img.jfif" class="album-img">
+                        <p class="album-title">Best Of Sunidhi Chauhan</p>
+                        <p class="album-info">Sunidhi Chauhan</p>
+                    </div>
+
+                    <div class="album">
+                        <img src="./assets/album7img.jfif" class="album-img">
+                        <p class="album-title">Musical Bond</p>
+                        <p class="album-info">KK | Pritam</p>
+                    </div>
+
+                    <div class="album">
+                        <img src="./assets/album9img.jfif" class="album-img">
+                        <p class="album-title">Best of me</p>
+                        <p class="album-info">Sukhwinder Singh</p>
+                    </div>
+
+                    <div class="album">
+                        <img src="./assets/album11img.jfif" class="album-img">
+                        <p class="album-title">Soulful Specials</p>
+                        <p class="album-info">Sonu Nigam</p>
+                    </div>
+                </div>
+
+                <div class="footer">
+                    <div class="line"></div>
+                </div>
+
+
+        </div>
+        <div class="music-player">
+            <div class="thumbnail">
+                <img src="./assets/album6img.jfif">
+                <div class="music-detail">
+                    <a href="" class="music-name small">Tujhko Bhulana - Murder 2</a>
+                    <a href="" class="music-artist small">Sangeet Haldipur, Roshni Baptist | Siddharth Haldipur</a>
+                </div>
+                <div class="music-heart">
+                    <i class="fa-regular fa-heart heart"></i>
+                </div>
+
+            </div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="./assets/player_icon1.png" class="player-control-icon">
+                    <img src="./assets/player_icon2.png" class="player-control-icon">
+                    <a href=""><img src="./assets/player_icon3.png" class="player-control-icon" style="opacity: 1; height: 2rem;"></a>
+                    <img src="./assets/player_icon4.png" class="player-control-icon">
+                    <img src="./assets/player_icon5.png" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">1:57</span>
+                    <input type="range" min="0" max="100" class="progress-bar">
+                    <span class="total-time">03:59</span>
+                </div>
+            </div>
+            <div class="controls">
+                <div class="control-icon">
+                    <img src="./assets/controls_icon3.png" alt="" style="opacity: 0.6; height: 1.3rem; width: 1.3rem;">
+                    <img src="./assets/controls_icon4.png" alt="" style="opacity: 0.6; height: 1.2rem; width: 1.3rem;">
+                    <img src="./assets/controls_icon1.png" alt="">
+                    <img src="./assets/controls_icon5.png" alt="" style="margin-left: -0.2rem;">
+                    <input type="range" class="volume">
+                    <img src="./assets/album_icon2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
