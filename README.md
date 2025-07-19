@@ -1,0 +1,1 @@
+create a folder "Spotify-clone" and then create a folder in spotify-clone "assets" and all images paste in "assets" folder and then you got 1 folder name "assets" and 2 files index.html and style.css 
